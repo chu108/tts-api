@@ -47,3 +47,6 @@ Makefile
 custom.yaml
 custom.config.js
 master_cache.data
+
+
+/__pycache__
