@@ -1,0 +1,14 @@
+name: tts-api
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn
+    - python-jose[cryptography]
+    - python-multipart
+    - edge-tts
+    - pydantic 
