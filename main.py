@@ -247,4 +247,4 @@ if __name__ == "__main__":
     # host="0.0.0.0" 表示监听所有网络接口
     # port=8000 指定端口
     # reload=True 启用热重载（开发模式）
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True) 
+    uvicorn.run("main:app", host="0.0.0.0", port=80, reload=True)
